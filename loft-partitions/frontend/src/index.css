@@ -5,18 +5,15 @@
 /* Базовые стили */
 body {
   font-family: 'Inter', system-ui, sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 /* Кастомные компоненты */
 .btn-primary {
-  @apply bg-accent hover:bg-red-700 text-white font-bold py-3 px-6 rounded transition duration-200;
+  @apply bg-red-600 hover:bg-red-700 text-white font-bold py-3 px-6 rounded transition duration-200;
 }
 
 .btn-secondary {
-  @apply bg-primary hover:bg-blue-900 text-white font-bold py-3 px-6 rounded transition duration-200;
-}
-
-/* Стили для Hero секции */
-.hero-gradient {
-  background: linear-gradient(135deg, #1a365d 0%, #2d3748 100%);
+  @apply bg-blue-900 hover:bg-blue-800 text-white font-bold py-3 px-6 rounded transition duration-200;
 }

@@ -1,0 +1,118 @@
+# ==================== PYTHON (Django Backend) ====================
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Django
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Media and static files
+/media/
+/staticfiles/
+/backend/media/
+/backend/staticfiles/
+
+# Environment variables
+.env
+*.env
+.env.local
+.env.*.local
+
+# IDE - PyCharm
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# IDE - VSCode
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# ==================== JAVASCRIPT (React Frontend) ====================
+# Dependencies
+/frontend/node_modules/
+/frontend/.pnpm-store/
+/frontend/npm-debug.log*
+/frontend/yarn-debug.log*
+/frontend/yarn-error.log*
+
+# Production builds
+/frontend/dist/
+/frontend/build/
+/frontend/.next/
+
+# Environment variables
+/frontend/.env
+/frontend/.env*.local
+
+# Parcel cache
+/frontend/.parcel-cache/
+
+# Vite cache
+/frontend/.vite/
+
+# ==================== DATABASES ====================
+*.sqlite3
+*.db
+*.mdb
+
+# ==================== OPERATING SYSTEM ====================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+# ==================== LOGS ====================
+*.log
+logs/
+
+# ==================== DOCKER ====================
+docker-compose.override.yml
+
+# ==================== MISC ====================
+*.tgz
+*.tar.gz
+*.zip
+*.rar
+
+# Project specific
+/backend/__pycache__/
+/backend/*/__pycache__/
+/backend/*/*/__pycache__/
+/backend/*.log
+
+# ==================== ROOT LEVEL IGNORES ====================
+# Frontend files that should be in /frontend/
+package.json
+package-lock.json
+node_modules/
+
+# Python files in root
+__init__.py
+
+# Backend test files (optional - remove if you want to keep them)
+/test_gigachat.py
